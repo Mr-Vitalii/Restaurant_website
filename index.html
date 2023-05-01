@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./lib/splide.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/main-page/vittos-yourself.png">
+
+    <script src="./lib/splide-extension-auto-scroll.min.js" defer></script>
+    <script src="./lib/splide.min.js" defer></script>
+    <script src="./js/lib.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <aside class="sidebar-left">
+        <a href="/" class="logo sidebar-left__logo">
+            <img src="./images/main-page/logo.png" alt="" srcset="">
+            <p class="logo__text">Vittos</p>
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav__list list-style">
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="pizza">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-pizza"></use>
+                        </svg>
+                        Піцца</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="sets">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-sets"></use>
+                        </svg>
+                        Сети</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="wok">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-wok"></use>
+                        </svg>
+                        WOK</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="roll">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-rolls"></use>
+                        </svg>
+                        Ролли</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="sushi">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-sushi"></use>
+                        </svg>
+                        Суши</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="salad">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-salad"></use>
+                        </svg>
+                        Салати</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="soup">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-soup"></use>
+                        </svg>
+                        Супи</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="corn">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-corn"></use>
+                        </svg>
+                        Корн доги</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="#" data-category="drinks">
+                        <svg class="main-nav__icon" width="20px" height="20px">
+                            <use href="./images/main-page/sprite.svg#icon-drinks"></use>
+                        </svg>
+                        Напої</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+
+    <div class="wrapper">
+        <header class="header">
+
+            <a href="/" class="logo header__logo">
+                <img src="./images/main-page/logo.png" alt="logo">
+            </a>
+
+            <div class="header__contacts-container">
+
+                <div class="header__contacts">
+                    <span class="header__contacts-text">Наш телефон</span>
+                    <a class="header__contacts-link" href="tel:+380998989777" class="header__contacts__link">
+                        +38 099 89 89 777</a>
+                    <a class="header__contacts-link" href="tel:+380998989777" class="header__contacts__link">
+                        +38 099 89 89 777</a>
+                </div>
+
+                <div class="header__business-hours">
+                    <svg class="header__clock-icon" width="15px" height="15px">
+                        <use href="./images/main-page/sprite.svg#icon-clock"></use>
+                    </svg>
+                    <span>працюємо</span>
+                    <span>с 10:00 до 00:00</span>
+                </div>
+            </div>
+
+            <div class="header__desktop-container">
+                <div class="header__city">
+                    <span>місто</span>
+                    <span>Харків</span>
+                </div>
+                <div class="header__business-info">
+                    <a class="header__review-link">Відгуки</a>
+                </div>
+            </div>
+
+
+
+        </header>
+
+        <main>
+            <div class="current-page">
+                <section class="banner">
+                    <div class="splide" aria-labelledby="carousel-heading">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide" data-splide-interval="1500">
+                                    <img src="./images/main-page/sushi-set.jpg" alt="Slide sushi-set">
+                                </li>
+                                <li class="splide__slide" data-splide-interval="1500">
+                                    <img src="./images/main-page/pizza.jpg" alt="Slide pizza">
+                                </li>
+                                <li class="splide__slide" data-splide-interval="1500">
+                                    <img src="./images/main-page/salad.jpg" alt="Slide salad">
+                                </li>
+                                <li class="splide__slide" data-splide-interval="1500">
+                                    <img src="./images/main-page/soup.jpg" alt="Slide soup">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="site-menu container">
+                        <ul class="site-menu__list list-style">
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="pizza">
+
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-pizza.jpg 160w, ./images/main-page/site-menu/pizza-380w.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                         380px" src="./images/main-page/site-menu/pizza-380w.jpg" alt="pizza" />
+                                    <span class="site-menu__text">Пицца</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="sets">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-sets.jpg 160w, ./images/main-page/site-menu/sush-set-380w.jpg"
+                                        sizes="(max-width: 480px) 160px,
+                                                                         380px"
+                                        src="./images/main-page/site-menu/sush-set-380w.jpg" alt="sushi sets" />
+                                    <span class="site-menu__text">Сеты</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="wok">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-wok.jpg 160w, ./images/main-page/site-menu/wok-380w.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                                                         380px"
+                                        src="./images/main-page/site-menu/wok-380w.jpg" alt="wok" />
+                                    <span class="site-menu__text">WOK</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="roll">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-rolls.jpg 160w, ./images/main-page/site-menu/rolls-380w.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                                                         380px"
+                                        src="./images/main-page/site-menu/rolls-380w.jpg" alt="rolls" />
+                                    <span class="site-menu__text">Роллы</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="sushi">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-sushi.jpg 160w, ./images/main-page/site-menu/sushi-380w.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                                                                                         380px"
+                                        src="./images/main-page/site-menu/sushi-380w.jpg" alt="sushi" />
+                                    <span class="site-menu__text">Суши</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="corn">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-corn.jpg 160w, ./images/main-page/site-menu/corn-380w.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                                                                                         380px"
+                                        src="./images/main-page/site-menu/corn-380w.jpg" alt="corn" />
+                                    <span class="site-menu__text">Корн дог</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="soup">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-soup.jpg 160w, ./images/main-page/site-menu/soup-380w.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                                                                                                                         380px"
+                                        src="./images/main-page/site-menu/soup-380w.jpg" alt="soup" />
+                                    <span class="site-menu__text">Супы</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="salad">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-salad.jpg 160w, ./images/main-page/site-menu/salad.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                                                                                                                                                         380px"
+                                        src="./images/main-page/site-menu/salad.jpg" alt="salad" />
+                                    <span class="site-menu__text">Салаты</span>
+                                </a>
+                            </li>
+                            <li class="site-menu__item">
+                                <a href="#" class="site-menu__link" data-category="drinks">
+                                    <img class="site-menu__img"
+                                        srcset="./images/mobile-main/main/mobile-menu-drinks.jpg 160w, ./images/main-page/site-menu/drinks-380w.jpg 380w"
+                                        sizes="(max-width: 480px) 160px,
+                                                                                                                                                                                                         380px"
+                                        src="./images/main-page/site-menu/drinks-380w.jpg" alt="drinks" />
+                                    <span class="site-menu__text">Напитки</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="new-popular container">
+                    <nav class="new-popular__nav">
+                        <a data-category="new" id="new" href="#" class="new-popular__link current-link">Новинки</a>
+                        <a data-category="popular" id="popular" href="#" class="new-popular__link">Популярне</a>
+                    </nav>
+                    <div id="new-popular-slider" class="splide" aria-labelledby="carousel-heading">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev new-popular__arrow">
+                                <svg style="width: 100%; height: 100%;">
+                                    <use href="./images/main-page/sprite.svg#icon-right-arrow"></use>
+                                </svg>
+                            </button>
+                            <button class="splide__arrow splide__arrow--next new-popular__arrow">
+                                <svg style="width: 100%; height: 100%;">
+                                    <use href="./images/main-page/sprite.svg#icon-left-arrow"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="splide__track new-popular__slide-container">
+                            <ul class="splide__list ">
+                                <li class="splide__slide">
+                                    <div id="1" class="new-popular__container-card--new"></div>
+                                    <div id="1" class="new-popular__container-card--popular"></div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div id="2" class="new-popular__container-card--new"></div>
+                                    <div id="2" class="new-popular__container-card--popular"></div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div id="3" class="new-popular__container-card--new"></div>
+                                    <div id="3" class="new-popular__container-card--popular"></div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div id="4" class="new-popular__container-card--new"></div>
+                                    <div id="4" class="new-popular__container-card--popular"></div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div id="5" class="new-popular__container-card--new"></div>
+                                    <div id="5" class="new-popular__container-card--popular"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <section class="catalog container">
+
+                <div class="catalog__header">
+                    <h1 class="catalog__title" data-category=""></h1>
+
+                    <div class="sort-menu">
+
+                        <select class="sort-menu__option-container">
+                            <option selected value="За замовчуванням">За замовчуванням</option>
+                            <option value="Назва">Назва</option>
+                            <option value="Спочатку дешевше">Спочатку дешевше</option>
+                            <option value="Спочатку дорожче">Спочатку дорожче</option>
+                            <option value="Кількість шматочків">Кількість шматочків</option>
+                            <option value="Вага">Вага</option>
+                        </select>
+
+                        <button class="sort-menu__button">
+                            <svg class="sort-menu__icon-menu" width="24px" height="20px">
+                                <use href="./images/main-page/sprite.svg#icon-select-menu"></use>
+                            </svg>
+                            <div>
+                                <span class="sort-menu__hidden-element">Сортування</span>
+                                <span>Сортування</span>
+                            </div>
+
+                            <svg class="sort-menu__icon-arrow-down" width="20px" height="10px">
+                                <use href="./images/main-page/sprite.svg#icon-arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul class="sort-menu__list list-style">
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="catalog__cards-container">
+
+                </div>
+
+            </section>
+
+            <section class="selected-card container">
+
+                <div class="selected-card__container">
+
+                </div>
+                <h2 class="selected-card__recommend-title">Рекомендуємо до цього товару</h2>
+                <div id="selected-card-slider" class="splide" aria-labelledby="carousel-heading">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev new-popular__arrow">
+                            <svg style="width: 100%; height: 100%;">
+                                <use href="./images/main-page/sprite.svg#icon-right-arrow"></use>
+                            </svg>
+                        </button>
+                        <button class="splide__arrow splide__arrow--next new-popular__arrow">
+                            <svg style="width: 100%; height: 100%;">
+                                <use href="./images/main-page/sprite.svg#icon-left-arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list ">
+                            <li class="splide__slide">
+                                <div id="1" class="selected-card__recommended-container"></div>
+                            </li>
+                            <li class="splide__slide">
+                                <div id="2" class="selected-card__recommended-container"></div>
+                            </li>
+                            <li class="splide__slide">
+                                <div id="3" class="selected-card__recommended-container"></div>
+                            </li>
+                            <li class="splide__slide">
+                                <div id="4" class="selected-card__recommended-container"></div>
+                            </li>
+                            <li class="splide__slide">
+                                <div id="5" class="selected-card__recommended-container"></div>
+                            </li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mobile-basket-container container">
+
+                <div class="basket">
+
+                    <div class="basket__empty-container">
+                        <h3 class="basket__title">
+                            Ваш кошик порожній.
+                        </h3>
+                        <p class="basket__text">Додайте ж швидше щось!</p>
+                        <p class="basket__text-accent">Безкоштовна доставка від 800 СОМ</p>
+                    </div>
+
+                    <div class="basket__full-container">
+                        <h3 class="basket__title">Кошик</h3>
+                        <div class="basket__card-container">
+
+                        </div>
+
+                        <div class="basket__total-container">
+
+                        </div>
+
+                        <button class="basket__button">Оформити замовлення</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class="ordering-section container">
+                <h2 class="ordering-section__title">Ваші дані</h2>
+                <form class="ordering-form">
+                    <div class="ordering-form__block">
+                        <input name="firstName" type="text" placeholder="Прізвище" required>
+                        <input name="lastName" type="text" placeholder="Ім'я" required>
+                    </div>
+                    <div class="ordering-form__block">
+                        <input checked id="courier-input" type="radio" name="delivery" value="courier"
+                            style="display: none;">
+                        <input id="pickup-input" type="radio" name="delivery" value="pickup" style="display: none;">
+
+                        <div id="courier-btn" class="ordering-form__button  ordering=form__button--previous">Кур'єром
+                        </div>
+                        <div id="pickup-btn" class="ordering-form__button  ordering=form__button--next">Самовивіз</div>
+                    </div>
+                    <div class="ordering-form__block">
+                        <input name="street" type="text" placeholder="Вулиця" required>
+                    </div>
+                    <div class="ordering-form__block">
+                        <input name="house" type="text" placeholder="Будинок" required>
+                    </div>
+                    <div class="ordering-form__block">
+                        <input name="apartment" type="text" placeholder="Кв" required>
+                        <input name="entrance" type="text" placeholder="Під'їзд">
+                    </div>
+                    <div class="ordering-form__block">
+                        <input name="floor" type="text" placeholder="Поверх">
+                        <input name="code" type="text" placeholder="Код">
+                    </div>
+                    <div class="ordering-form__block">
+                        <input checked id="cash-input" type="radio" name="orderingType" value="cash"
+                            style="display: none;">
+                        <input id="card-input" type="radio" name="orderingType" value="card" style="display: none;">
+
+                        <div id="cash-btn" class="ordering-form__button  ordering-form__button--previous">
+                            <svg id="cash-icon" class="ordering-form__icon" width="22px" height="22px">
+                                <use href="./images/main-page/sprite.svg#icon-wallet"></use>
+                            </svg>
+                            <span>Готівкою</span>
+                        </div>
+                        <div id="card-btn" class="ordering-form__button  ordering-form__button--next">
+                            <svg id="card-icon" class="ordering-form__icon" width="22px" height="22px">
+                                <use href="./images/main-page/sprite.svg#icon-card"></use>
+                            </svg>
+                            <span>Карткою</span>
+                        </div>
+                    </div>
+                    <div class="ordering-form__checkbox-container">
+                        <label class="ordering-form__checkbox-field">
+                            <input name="isChange" class="ordering-form__checkbox" type="checkbox"
+                                id="ordering-form__checkbox">
+                            <svg class="ordering-form__icon icon-checkbox--empty" width="20px" height="20px">
+                                <use href="./images/main-page/sprite.svg#icon-checkbox-empty"></use>
+                            </svg>
+                            <svg class="ordering-form__icon icon-checkbox--checked" width="20px" height="20px">
+                                <use href="./images/main-page/sprite.svg#icon-check"></use>
+                            </svg>
+                            <span>Підготувати здачу з</span>
+                            <input name="change" type="text" placeholder="Сума">
+                        </label>
+                    </div>
+                    <div class="ordering-form__block">
+                        <input name="email" type="text" placeholder="Телефон" required>
+                    </div>
+                    <div class="ordering-form__block">
+                        <input name="comment" type="text" placeholder="Коментар до замовлення">
+                    </div>
+                    <div class="ordering-form__block">
+                        <span> Палички + соусник звичайні</span>
+                        <div class="ordering-form__quantity-button-container">
+                            <button type="button" class="ordering-form__quantity-button minus">
+                                <svg class="ordering-form__icon" width="20px" height="20px">
+                                    <use href="./images/main-page/sprite.svg#icon-minus"></use>
+                                </svg>
+                            </button>
+                            <span class="ordering-form__quantity">1</span>
+                            <button type="button" class="ordering-form__quantity-button plus">
+                                <svg class="ordering-form__icon" width="20px" height="20px">
+                                    <use href="./images/main-page/sprite.svg#icon-plus"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="basket" class="ordering-form__total-container">
+
+                    </div>
+                    <button type="submit" class="ordering-form__submit-button">Оформити замовлення</button>
+                </form>
+            </section>
+
+
+            <div id="about" class="container about">
+                <h2 class="about__title">Замовити суші у Харкові</h2>
+                <p class="about__text">Ресторан “VITTOS” пропонуємо своїм клієнтам найсмачніші суші з доставкою
+                    додому, приготовлені за класичними
+                    та адаптованим до європейської аудиторії рецептам, а також власним напрацюванням наших кухарів. Ми
+                    цінуємо час наших
+                    клієнтів, тому ви можете замовити суші у Харкові з доставкою додому чи офісу.</p>
+                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aspernatur
+                    perferendis ex?
+                    Pariatur perferendis dolores autem deserunt tempora, aperiam fugit repellendus, sit voluptatibus
+                    assumenda, delectus voluptates obcaecati minus sapiente esse.</p>
+                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aspernatur
+                    perferendis ex?
+                    Pariatur perferendis dolores autem deserunt tempora, aperiam fugit repellendus, sit voluptatibus
+                    assumenda, delectus voluptates obcaecati minus sapiente esse.</p>
+                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aspernatur
+                    perferendis ex?
+                    Pariatur perferendis dolores autem deserunt tempora, aperiam fugit repellendus, sit voluptatibus
+                    assumenda, delectus voluptates obcaecati minus sapiente esse.</p>
+                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aspernatur
+                    perferendis ex?
+                    Pariatur perferendis dolores autem deserunt tempora, aperiam fugit repellendus, sit voluptatibus
+                    assumenda, delectus voluptates obcaecati minus sapiente esse.</p>
+                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aspernatur
+                    perferendis ex?
+                    Pariatur perferendis dolores autem deserunt tempora, aperiam fugit repellendus, sit voluptatibus
+                    assumenda, delectus voluptates obcaecati minus sapiente esse.</p>
+                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aspernatur
+                    perferendis ex?
+                    Pariatur perferendis dolores autem deserunt tempora, aperiam fugit repellendus, sit voluptatibus
+                    assumenda, delectus voluptates obcaecati minus sapiente esse.</p>
+
+                <button class="about__btn">Детальніше ▽</button>
+            </div>
+
+            <section class="reviews container">
+                <div class="reviews__general-reviews-container">
+                    <h2 class="reviews__title">Отзывы</h2>
+                    <div class="reviews__cards-container">
+
+                    </div>
+                    <button id="reviews__button" class="reviews__button">+ Додати відгук</button>
+                </div>
+
+                <div class="reviews__user-review-container">
+                    <form class="reviews__form">
+                        <div>
+                            <label class="reviews__card-text">Ім'я:
+                                <input autofocus name="user_name" class="reviews__name" type="text">
+                                <span class="reviews__error-text">Поле має бути заповнено</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="reviews__card-text">Коментар:
+                                <textarea name="review" class="reviews__description" required></textarea>
+                                <span class="reviews__error-text">Поле має бути заповнено</span>
+                            </label>
+                        </div>
+
+                        <button type="button" id="own-review-button" class="reviews__button">Відправити</button>
+                    </form>
+                </div>
+
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer">
+
+                <div class="footer__communication">
+                    <p class="footer__communication-text">Введіть номер</p>
+                    <input class="footer__communication-input" type="text" placeholder="+380 (__) ___ __ __">
+                    <div class="social-links">
+                        <p class="social-links__text">Виберіть зручний
+                            месенджер для спілкування</p>
+                        <div class="social-links__icons">
+                            <a class="social-links__link" href="#">
+                                <svg class="social-links__icon-whatsApp" width="50px" height="50px">
+                                    <use href="./images/main-page/sprite.svg#icon-whatsApp"></use>
+                                </svg>
+                            </a>
+                            <a class="social-links__link" href="#">
+                                <svg class="social-links__icon-telegram" width="50px" height="50px">
+                                    <use href="./images/main-page/sprite.svg#icon-telegram"></use>
+                                </svg>
+                            </a>
+                            <a class="social-links__link" href="#">
+                                <img src="./images/main-page/icon-instagram.svg" alt="instagram-icon"
+                                    class="social-links__icon-telegram" style="display:inline-block; width: 50px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__contacts">
+                    <a href="tel:+380998989777" class="footer__contacts-link">
+                        +38 099 89 89 777</a>
+                    <a href="tel:+380998989777" class="footer__contacts-link">
+                        +38 099 89 89 777</a>
+                    <p class="footer__contacts-text">Адреса: Свободи 126</p>
+                </div>
+                <nav class="footer__menu">
+                    <a class="footer__menu-link" href="#">
+                        <svg width="50px" height="50px">
+                            <use href="./images/main-page/sprite.svg#icon-foods"></use>
+                        </svg>
+                        <p class="footer__menu-text">Меню</p>
+                    </a>
+                    <a id="basket-link" class="footer__menu-link basket-link" href="#">
+                        <svg width="50px" height="50px">
+                            <use href="./images/main-page/sprite.svg#icon-basket-2"></use>
+                        </svg>
+                        <p class="footer__menu-text">Кошик</p>
+                    </a>
+                    <a id="reviews-link" class="footer__menu-link" href="#">
+                        <svg width="50px" height="50px">
+                            <use href="./images/main-page/sprite.svg#icon-review"></use>
+                        </svg>
+                        <p class="footer__menu-text">Відгуки</p>
+                    </a>
+
+                </nav>
+            </div>
+        </footer>
+    </div>
+
+
+    <aside class="sidebar-right">
+
+        <div class="basket__empty-container">
+            <h3 class="basket__title">
+            Ваш кошик порожній.
+            </h3>
+            <p class="basket__text">Додайте ж швидше щось!</p>
+            <p class="basket__text-accent">Безкоштовна доставка від 800 СОМ</p>
+        </div>
+
+        <div class="basket__full-container">
+            <h3 class="basket__title">Кошик</h3>
+            <div class="basket__card-container">
+
+            </div>
+
+            <div class="basket__total-container">
+
+            </div>
+
+            <button class="basket__button">Оформити замовлення</button>
+        </div>
+
+    </aside>
+
+    <div id="modal-container">
+
+    </div>
+
+</body>
+
+</html>

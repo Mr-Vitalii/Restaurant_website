@@ -1,0 +1,24 @@
+.sidebar-right {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar-right {
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 24%;
+        height: 100%;
+        padding: 20px 10px;
+        background-color: $secondary-bg-color;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .sidebar-right {
+        padding: 30px 20px;
+    }
+}
+

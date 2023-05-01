@@ -1,0 +1,111 @@
+.new-popular {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .new-popular {
+        display: block;
+        background-color: $primary-bg-color;
+
+        &__nav {
+            margin-bottom: 20px;
+        }
+
+        &__link {
+            font-weight: 500;
+            font-size: 24px;
+            color: $secondary-text-color;
+
+            &.current-link {
+                position: relative;
+                color: $primary-text-color;
+
+                &::after {
+                    display: inline-block;
+                    position: absolute;
+                    bottom: -1px;
+                    left: 0;
+                    content: "";
+                    width: 100%;
+                    height: 5px;
+                    background-color: $primary-accent-color;
+                    border-radius: 2px;
+                }
+            }
+        }
+
+        &__container-card--new {
+            height: 100%;
+        }
+
+        &__container-card--popular {
+            height: 100%;
+        }
+
+        &__arrow.splide__arrow.splide__arrow--prev {
+            width: 35px;
+            height: 35px;
+            transform: translate(-20px, -30px);
+        }
+
+        &__arrow.splide__arrow.splide__arrow--next {
+            width: 35px;
+            height: 35px;
+            transform: translate(20px, -30px);
+        }
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .new-popular {
+        background-color: $primary-bg-color;
+
+        &__nav {
+            margin-bottom: 30px;
+        }
+
+        &__link {
+            font-weight: 500;
+            font-size: 24px;
+            color: $secondary-text-color;
+
+            &.current-link {
+                position: relative;
+                color: $primary-text-color;
+
+                &::after {
+                    display: inline-block;
+                    position: absolute;
+                    bottom: -1px;
+                    left: 0;
+                    content: "";
+                    width: 100%;
+                    height: 5px;
+                    background-color: $primary-accent-color;
+                    border-radius: 2px;
+                }
+            }
+        }
+
+        &__container-card--new {
+            height: 100%;
+        }
+
+        &__container-card--popular {
+            height: 100%;
+        }
+
+        &__arrow.splide__arrow.splide__arrow--prev {
+            width: 35px;
+            height: 35px;
+            transform: translate(-20px, -30px);
+        }
+
+        &__arrow.splide__arrow.splide__arrow--next {
+            width: 35px;
+            height: 35px;
+            transform: translate(20px, -30px);
+        }
+    }
+}

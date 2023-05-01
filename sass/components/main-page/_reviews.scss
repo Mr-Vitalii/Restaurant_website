@@ -1,0 +1,143 @@
+.reviews {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+
+    &__title {
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+
+        color: $accent-text-color;
+    }
+
+    &__card {
+        width: 100%;
+        max-width: 450px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: $secondary-bg-color;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+    }
+
+    &__card-title {
+        margin-right: 20px;
+        font-weight: 500;
+        font-size: 24px;
+
+        color: $accent-text-color;
+    }
+
+    &__card-time {
+        font-weight: 500;
+        font-size: 18px;
+
+
+        color: $secondary-text-color;
+    }
+
+    &__card-text {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    &__user-review-container {
+        // display: none;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    &__name {
+        margin-bottom: 10px;
+        padding: 5px 16px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        outline: none;
+    }
+
+    &__description {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        padding: 12px 16px;
+
+
+        height: 120px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+
+        resize: none;
+        outline: none;
+    }
+
+    &__button {
+        @extend %button;
+        width: 100%;
+        max-width: 450px;
+        padding: 7px 0;
+        margin: 0 auto;
+        background-color: $accent-text-color;
+    }
+
+    &__error-text {
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: red;
+        display: none
+    }
+
+    &__error {
+        border: 2px solid red;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .reviews {
+        &__general-reviews-container {
+            display: grid;
+            grid-template-columns: auto 1fr 180px;
+            align-items: center;
+            margin-top: 40px;
+            width: 100%;
+        }
+
+        &__title {
+            margin: 0;
+            margin-bottom: 30px;
+            grid-column: 1 / 2;
+        }
+
+        &__button {
+            margin: 0;
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+        }
+
+        &__cards-container {
+            grid-column: 1 / -1;
+        }
+
+        &__card {
+            max-width: 850px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: $secondary-bg-color;
+        }
+
+        &__user-review-container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            max-width: 450px;
+        }
+    }
+
+}

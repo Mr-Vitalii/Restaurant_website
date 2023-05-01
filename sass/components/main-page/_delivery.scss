@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+    .delivery {
+        position: relative;
+        background-color: $primary-bg-color;
+        text-align: center;
+
+        &__image {
+            height: 90px;
+            margin-bottom: 40px;
+        }
+
+        &__icon {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%);
+
+        }
+
+        &__title {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 0.8;
+            margin-bottom: 10px;
+        }
+
+        &__text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 0.8;
+            padding-bottom: 5px;
+            color: $secondary-text-color;
+        }
+    }
+}
+
+@media screen and (min-width: 1171px) {
+
+    .delivery {
+        position: relative;
+        background-color: $primary-bg-color;
+        text-align: center;
+
+        &__image {
+            margin-bottom: 40px;
+        }
+
+        &__icon {
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%);
+
+        }
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+    }
+}

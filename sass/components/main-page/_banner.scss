@@ -1,0 +1,20 @@
+.banner {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        display: block;
+        background-color: $secondary-bg-color;
+    }
+
+    .banner img {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .banner img {
+        height: 500px;
+    }
+}

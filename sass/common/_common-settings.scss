@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; //* зірочка в великих сайтахце навантаження
+}
+
+
+//* шрифти підключаемо локально
+
+@font-face {
+    font-family: 'DinPro';
+    src: url(../../fonts/DINPro.ttf) format('ttf'), url(../../fonts/DINPro.woff) format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'DinPro';
+    src: url(../../fonts/DINPro-Medium.ttf) format('ttf'), url(../../fonts/DINPro-Medium.woff) format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DinPro';
+    src: url(../../fonts/DINPro-Bold.ttf) format('ttf'), url(../../fonts/DINPro-Bold.woff) format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(../../fonts/Nexa-Regular.ttf) format('ttf'), url(../../fonts/Nexa-Regular.woff) format('woff');
+    font-weight: 300;
+}
+
+
+
+// @font-face {
+//     font-family: 'DinPro';
+//     src: url(/yoursite/fonts/st-Italic.ttf) format('ttf'), url(/yoursite/fonts/st-Italic.woff) format('woff');
+//     font-style: italic;
+//     font-weight: 400;
+// }
+
+body {
+    margin: 0px;
+    background-color: rgb(241, 241, 241);
+    font-family: 'DinPro';
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    padding: 0px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+//*  Скидання стилів у списків   */
+
+.list-style {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+//*Загальний контейнер  */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: $primary-bg-color;
+}

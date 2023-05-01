@@ -1,0 +1,39 @@
+.social-links {
+
+    &__text {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: $secondary-text-color;
+    }
+
+    &__link:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &__link:nth-child(1) {
+        opacity: 0.2;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &__link:nth-child(2) {
+        opacity: 0.2;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &__link:nth-child(3) {
+        opacity: 0.2;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

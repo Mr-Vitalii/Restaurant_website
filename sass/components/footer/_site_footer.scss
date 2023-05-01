@@ -1,0 +1,131 @@
+.footer {
+    padding: 15px 0;
+    text-align: center;
+
+    &__nav {
+        display: none;
+    }
+
+    &__communication {
+        margin-bottom: 30px;
+    }
+
+    &__communication-text {
+        display: none;
+    }
+
+    &__communication-input {
+        display: none;
+    }
+
+
+    &__contacts {
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: $secondary-text-color;
+    }
+
+    &__contacts-link {
+        display: block;
+        color: $secondary-text-color;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: center;
+        padding: 11px 0;
+        background-color: $secondary-bg-color;
+    }
+
+    &__menu-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__menu-link:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    &__menu-text {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 15px;
+        &__nav {
+            display: block;
+            margin: 30px 0;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1;
+
+            color: $primary-text-color;
+        }
+
+
+        &__nav-item:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        &__communication-text {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        &__communication-input {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .footer {
+        text-align: start;
+        display: flex;
+        justify-content: space-between;
+
+        &__nav {
+            display: block;
+            margin: 0;
+        }
+
+        &__nav-item:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        &__communication {
+            width: 40%;
+            margin: 0px;
+
+        }
+
+        &__communication-text {
+            display: block;
+            word-wrap: break-word;
+        }
+
+        &__communication-input {
+            display: block;
+            margin: 0 0;
+        }
+
+        &__contacts {
+            margin: 0;
+        }
+
+        &__menu {
+            display: none;
+        }
+    }
+}

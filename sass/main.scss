@@ -1,0 +1,27 @@
+@import './utils/variables';
+@import './utils/placeholder';
+@import './common/common-settings';
+@import './common/social-links';
+@import './common/modal';
+
+@import './components/cards/product-card';
+@import './components/cards/basked-card';
+@import './components/cards/selected-card';
+@import './components/cards/new-popular-cards';
+
+@import './components/sidebare/sidebar-left';
+@import './components/sidebare/sidebar-right';
+
+
+@import './components/header/site_header';
+
+@import './components/main-page/banner';
+@import './components/main-page/site-menu';
+@import './components/main-page/catalog';
+@import './components/main-page/basket';
+@import './components/main-page/delivery';
+@import './components/main-page/ordering';
+@import './components/main-page/reviews';
+@import './components/main-page/about';
+
+@import './components/footer/site_footer';
